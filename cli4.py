@@ -3,7 +3,7 @@ import time as t
 class Library: # creating class for Library
     def __init__(self,list): # Initializing the class with function
         self.books_list = list # books list creating
-        self.available_books = list[:] # creating new list for available books list
+        self.available_books = list[:] # copying (shallow copy) new list for available books list
         self.books_lent = {} # creating books for lent and stored as list (book as key and name as value)
 
     def display_books(self): # function for displaying books
