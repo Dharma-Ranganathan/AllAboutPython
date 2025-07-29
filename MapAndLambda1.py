@@ -1,5 +1,7 @@
 """
 understanding map and lamba 
+
+making a new list contains only name and marks
 """
 
 stds = [(123,"dj",35),(124,"sp",49),(125,"vk",50)]
