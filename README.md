@@ -1,4 +1,4 @@
 # Welcome all to my AllAboutPython...
 This repository contains and showcase my problem solving skills using python
 
-solved over : 33
+solved over : 34
