@@ -15,12 +15,12 @@ import numpy as np
 import time as t
 
 def findStats():
-    arr = []
+    arr = np.array([])
     print()
     # getting inputs from user for 10 times using for loop
     for i in range(1,6):
         num = int(input(f"{i} num to add in array : "))
-        arr.append(num)
+        arr = np.append(arr,num)
     mean = np.mean(arr)
     median = np.median(arr)
     var = np.var(arr)
