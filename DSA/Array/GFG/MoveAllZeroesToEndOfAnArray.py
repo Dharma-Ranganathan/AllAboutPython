@@ -26,8 +26,9 @@ class Array:
     def moveAllZeroesToEnd(self):
         for i in range(len(self.arr)):
             if self.arr[i] == 0:
-                popped = self.arr.pop(i)
-                self.arr.append(popped)
+                p
+                self.arr.remove(self.arr[i])
+                self.arr.append(0)
                 continue
         return self.arr
 
