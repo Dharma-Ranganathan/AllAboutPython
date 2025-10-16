@@ -1,6 +1,6 @@
 """
 code to select every 10th element
-and append in array then sum all.
+and then sum all.
 """
 
 # Libraries 
@@ -15,12 +15,12 @@ print()
 
 # after - getting all 10th element
 
-sum_arr = []
+sum_arr = 0
 
 x = 1
 for i in arr:
     if x == 10:
-        sum_arr.append(i)
+        sum_arr += i
         x = 1
     else:
         x+=1
@@ -29,11 +29,5 @@ for i in arr:
 print(f'sum_arr : {sum_arr}')
 print()
 
-# after - summing all 10th element
 
-summate = 0
 
-for i in sum_arr:
-    summate += i
-    
-print(f'summate : {summate}')
