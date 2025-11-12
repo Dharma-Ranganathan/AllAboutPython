@@ -2,4 +2,4 @@
 
 *This repository contains and showcase my problem solving skills using python*
 
-**solved : 105**
+**solved : 106**
